@@ -3,7 +3,7 @@
 " Language:     trac wiki
 " Maintainer:   Caleb Constantine <cadamantine@gmail.com>
 " Last Change:  22 Nov 2010
-" Version: 0.4
+" Version: 0.5
 
 " Modified extensively from wiki.vim, by Andreas Kneib,
 " http://www.vim.org/scripts/script.php?script_id=725
@@ -78,7 +78,7 @@ syn match   tracLinks     `\<\(wiki\|source\|attachment\|milestone\|diff\|log\|r
 " syntax will break.
 syn region  tracMacro       start=+\[\[+ end=+\]\]+
 
-syn match   tracListItem    "^\s\+[*]\s\+"
+syn match   tracListItem    "^\s\+[*-]\s\+"
 syn match   tracDefList     "^\s.\+::" 
 
 syn region  tracDisussion   start="^>" end="$"

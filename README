@@ -2,5 +2,5 @@ This is a mirror of http://www.vim.org/scripts/script.php?script_id=3337
 
 Vim syntax file for Trac wiki syntax. Most of Trac 0.11 wiki syntax is supported.
 
-(Modified from the more general purpose wiki.vim, by Andreas Kneib, http://www.vim.org/scripts/script.php?script_id=725)
+(Modified from the more general purpose wiki.vim, by Andreas Kneib, http://www.vim.org/scripts/script.php?script_id=725, ftdetect script contributed by Daniel Hahler.)
 
